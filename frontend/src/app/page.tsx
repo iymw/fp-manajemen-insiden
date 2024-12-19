@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <div className='w-screen h-screen flex justify-center items-center flex-col gap-3'>
       <Typography className='capitalize text-[30px]' weight='bold'>
-        welcome to kel 14
+        welcome to kel 4
       </Typography>
       <div className='flex gap-6'>
         <UnstyledLink href='/admin'>

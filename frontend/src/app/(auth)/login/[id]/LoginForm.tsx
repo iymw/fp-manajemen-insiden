@@ -61,7 +61,7 @@ export default function LoginForm() {
             id='email'
             label='Username'
             leftIcon={BiSolidUser}
-            placeholder='kel14@gmail.com'
+            placeholder='kel4@student.its.ac.id'
             helperText='Username berupa email'
           />
           <div className='space-y-1'>
@@ -70,11 +70,8 @@ export default function LoginForm() {
               id='password'
               label='Password'
               leftIcon={BiSolidLock}
-              placeholder='kel14jayajayajaya'
+              placeholder="let's go kel4"
             />
-            <Typography variant='c1' className='underline'>
-              <Link href='/forgot-password'>Lupa password?</Link>
-            </Typography>
           </div>
         </div>
 

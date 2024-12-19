@@ -45,8 +45,7 @@ export default function LoginForm() {
             id='email'
             label='Username'
             leftIcon={BiSolidUser}
-            placeholder='kel14@gmail.com'
-            helperText='Username berupa email'
+            placeholder='kel4@student.its.ac.id'
           />
           <div className='space-y-1'>
             <Input
@@ -54,18 +53,14 @@ export default function LoginForm() {
               id='password'
               label='Password'
               leftIcon={BiSolidLock}
-              placeholder='kel14jayajayajaya'
+              placeholder="let's go kel4"
             />
-            <Typography variant='c1' className='underline'>
-              <Link href='/forgot-password'>Lupa password?</Link>
-            </Typography>
           </div>
         </div>
-
         <Button
           type='submit'
           variant='success'
-          className='w-full bg-green-400 hover:bg-green-500 active:bg-green-700 py-2 md:py-0'
+          className='w-full bg-purple-400 hover:bg-purple-500 active:bg-purple-700 py-2 md:py-0'
           textClassName='text-white'
           isLoading={isPending}
         >

@@ -6,29 +6,16 @@ import LoginForm from './LoginForm';
 
 export default function LoginPage() {
   return (
-    <div className='w-full h-full flex justify-center'>
-      <div className='h-full flex w-[400px] flex-col justify-center gap-6 text-typo-dark pb-12'>
+    <div className='w-full h-screen bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 flex justify-center items-center'>
+      <div className='w-[400px] p-8 rounded-xl shadow-lg bg-white/80 backdrop-blur-lg flex flex-col justify-center gap-6'>
         <Typography
-          as='h1'
-          variant='h5'
           weight='bold'
-          className='w-full text-center'
+          className='w-full text-center text-[32px] text-black/80'
         >
           Login
         </Typography>
 
         <LoginForm />
-
-        <div className='flex justify-center items-center gap-2'>
-          <Typography variant='bt'>Belum punya akun?</Typography>
-          <Typography
-            variant='bt'
-            weight='semibold'
-            className='text-secondary-50 hover:text-secondary-60 transition-colors'
-          >
-            <Link href='/signup'>Daftar</Link>
-          </Typography>
-        </div>
       </div>
     </div>
   );
